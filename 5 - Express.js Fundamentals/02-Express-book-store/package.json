@@ -1,5 +1,5 @@
 {
-  "name": "express-app",
+  "name": "02-express-book-store",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,9 +8,11 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "@types/express": "^5.0.3",
-    "@types/node": "^24.7.2",
+    "@types/node": "^24.7.2"
+  },
+  "dependencies": {
     "express": "^5.1.0"
   }
 }
