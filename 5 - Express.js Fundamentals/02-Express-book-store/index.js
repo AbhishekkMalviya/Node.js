@@ -53,9 +53,9 @@ app.delete('/books/:id', (req, res) => {
         return res.status(404)
             .json({ error: `Book with id ${id} does not exist.` });
 
-    books.splice(indexToDelete,1 );
+    books.splice(indexToDelete, 1);
 
-    return res.status(200).json({message:`book with id ${id} deleted successfully`});
+    return res.status(200).json({ message: `book with id ${id} deleted successfully` });
 })
 
-app.listen(PORT, () => console.log(`app is listening on port: ${PORT}`));
+app.listen(PORT, () => console.log(`app is listening on port ${PORT}`));
