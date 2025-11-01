@@ -1,0 +1,17 @@
+{
+  "name": "node-orm-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "drizzle-kit": "^0.31.6",
+    "drizzle-orm": "^0.44.7",
+    "esbuild": "^0.25.11",
+    "pg": "^8.16.3"
+  }
+}
